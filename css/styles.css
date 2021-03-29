@@ -1,0 +1,212 @@
+body{
+  margin: 0;
+  padding: 0;
+	background-color: rgb(255, 248, 220);
+}
+
+header{
+	position: fixed; top: 3%; left: 0; right: 0;
+	text-align: center;
+	background-color: white;
+	border-radius: 30px;
+	opacity: 0.7;
+}
+header ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+#BOX1{
+  width: 100%;
+  height: 100%;
+	background: center/cover url(../img/photo04.JPG);
+	border-radius: 10px;
+}
+
+#BOX2{
+  width: 100%;
+  height: 80%;
+}
+#box20{
+	height: 100%;
+	background-color: rgba(255, 248, 220, 1);
+	display: grid;
+	grid-template-columns: 5% 30% 30% 30% 5%;
+	grid-template-rows: 20% 70% 10%;
+}
+#box21{
+	grid-column: 1 / 6;
+	grid-row: 1 / 2;
+	/* 縦、横　中央揃え */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#BOX2 .photos{
+	width: 100%;
+	height: 50%;
+}
+#BOX2 .contents{
+	height: 50%;
+	font-size: 14px;
+}
+#BOX2 .contents h1,
+#BOX2 .contents h2{
+	font-size: 12px;
+}
+#BOX2 .contents p{
+	padding: 10px;
+}
+#BOX2 .contents div{
+	display: flex;
+	justify-content: space-around;
+}
+#BOX2 a{
+	text-decoration: none;
+	color: black;
+}
+#box22{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+#box22, #box23, #box24{
+	margin: 10px;
+	padding: 10px 30px;
+	background-color: white;
+	border-radius: 20px;
+}
+#box22:hover, #box23:hover, #box24:hover{
+	margin: 30px;
+}
+#BOX2 .photos:hover{
+	width: 80%;
+	height: 40%;
+	margin: 0 auto;
+}
+#box22a{
+	background: center/cover url(../img/book01.jpg);
+}
+#box23{
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+#box23a{
+	background: center/cover url(../img/book02.jpg);
+}
+#box24{
+	grid-column: 4 / 5;
+	grid-row: 2 / 3;
+}
+#box24a{
+	background: center/cover url(../img/book03.jpg);
+}
+#box25{
+	grid-column: 2 / 5;
+	grid-row: 3 / 4;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 10%;
+}
+#box25 .buttons{
+	padding: 15px 40px;
+	font-size: 16px;
+	color: greenyellow;
+	background-color: white;
+	border: 4px solid greenyellow;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
+#BOX3{
+	height: 100%;
+	background: center/cover url(../img/photo03.JPG);
+}
+#box30{
+	height: 100%;
+	background-color: rgba(255, 248, 220, 1);
+	display: grid;
+	grid-template-columns: calc(100% /3) calc(100% /3) calc(100% /3);
+	grid-template-rows: 50% 50%;
+	transition: all 0.5s 0.5s ease;
+}
+
+#box30:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#BOX3 .cover{
+	color: rgba(0, 0, 0, 1);
+	transition: all 0.5s 0.5s ease;
+	text-align: center
+}
+#BOX3 .cover:hover{
+	background-color: rgb(221, 219, 219);
+	color: rgb(0, 0, 0);
+	border: 4px solid black;
+	border-radius: 20px;
+	margin: 50px;
+	opacity: 0.8;
+}
+
+#box31{
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+}
+#box32{}
+#box33{}
+#box34{}
+
+#BOX4{
+	height: 100%;
+	background: center/cover url(../img/photo01.JPG);
+}
+#box40{
+	height: 100%;
+	background-color: rgba(255, 248, 220, 1);
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 50% 50%;
+	transition: all 0.5s 0.5s ease;
+}
+
+#box40:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#BOX4 .cover{
+	color: rgba(0, 0, 0, 1);
+	transition: all 0.5s 0.5s ease;
+	text-align: center
+}
+#BOX4 .cover:hover{
+	background-color: rgb(221, 219, 219);
+	color: rgb(0, 0, 0);
+	border: 4px solid black;
+	border-radius: 20px;
+	margin: 50px;
+	opacity: 0.8;
+}
+
+#box41{
+	grid-column: 1 / 5;
+	grid-row: 1 / 2;
+}
+#box42{}
+#box43{}
+#box44{}
+#box45{}
+
+
+footer{
+	height: 10%;
+	background-color: black;
+	color: white;
+}
